@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>图片展示</title>
+</head>
+
+<body>
+    <form action="/Image_upload/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="submit" value="return">
+        result:{{result}}<p></p>
+        <p><img src="/static/media/{{ pic_obj.pic }}" alt="">
+
+    </form>
+
+
+</body>
+
+</html>

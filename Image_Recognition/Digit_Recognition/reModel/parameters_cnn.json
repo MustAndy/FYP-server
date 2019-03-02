@@ -1,0 +1,7 @@
+{
+    "training_iters": 1000,
+    "batch_size": 50,
+    "accuracy": 1.00,
+    "display_step": 100,
+    "pkeep": 0.6
+}
